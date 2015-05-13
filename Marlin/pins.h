@@ -672,7 +672,7 @@
   #if MOTHERBOARD == 35
     #define HEATER_0_PIN       8
   #else
-    #define HEATER_0_PIN       10   // EXTRUDER 1
+    #define HEATER_0_PIN       8   // EXTRUDER 1
   #endif
 
   #if MOTHERBOARD == 33 || MOTHERBOARD == 67
@@ -715,7 +715,7 @@
     #if MOTHERBOARD == 77
       #define HEATER_BED_PIN     9    // BED
     #else
-      #define HEATER_BED_PIN     8    // BED
+      #define HEATER_BED_PIN     10    // BED
     #endif
   #endif
 
